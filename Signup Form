@@ -1,0 +1,29 @@
+<form>
+   <br>
+   <label>
+           Email: 
+      <input type="text" name="email">
+   </label>
+   <br><br>
+    <label>
+           Password: 
+      <input type="text" name="password">
+   </label>
+   <br><br>
+  <label>
+           Github Username: 
+      <input type="text" name="githubUsername">
+   </label>
+   <br><br>
+      <input type="radio" name="options" value="Enterprise"> Enterprise
+      <input type="radio" name="options" value="Pro"> Pro
+      <input type="radio" name="options" value="Free" checked> Free
+   <br><br>
+      <input type="checkbox" name="rememberMe" value="Remember Me"> Remember Me
+   <br><br>
+      <div>
+          <button>
+          SUBMIT
+          </button>
+      </div>
+</form>
